@@ -9,16 +9,16 @@ import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss"
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
-const homePagePhotos = [
-  {
-    id: 1,
-    photoSrc: require("../../photos/home_slide_1.jpg"),
-  },
-  {
-    id: 2,
-    photoSrc: require("../../photos/home_slide_2.jpg"),
-  },
-];
+// const homePagePhotos = [
+//   {
+//     id: 1,
+//     photoSrc: require("../../photos/home_slide_1.jpg"),
+//   },
+//   {
+//     id: 2,
+//     photoSrc: require("../../photos/home_slide_2.jpg"),
+//   },
+// ];
 
 const carousal = () => {
   return (

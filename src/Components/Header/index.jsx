@@ -17,10 +17,13 @@ const index = () => {
           <li className="links">About</li>
         </Link>
         <Link to="/gallery">
-          <li className="links">Gallery</li>
+          <li className="links">Illustration</li>
+        </Link>
+        <Link to="/story-board">
+          <li className="links">StoryBoard</li>
         </Link>
         <Link to="/contact">
-          <li className="links">Contact</li>
+          <li className="links link-last">Contact</li>
         </Link>
       </nav>
     </div>
