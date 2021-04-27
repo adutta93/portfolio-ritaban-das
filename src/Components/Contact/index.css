@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container img {
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.details{
+    margin-left: 9rem;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+}
+
+.socialMedia a {
+    margin-left: 1rem;
+}
+
+.socialMedia .fb {
+    margin-left: -.1rem;
+}
