@@ -20,7 +20,7 @@ const index = () => {
             Hi there! Feel free to your hellos or ask me any questions <br />{" "}
             through my email id: ronnie1234321@gmail.com.
             <br /> <br />
-            Phone: +1 506 545 7022 cell: +1 506 480 1429
+            Phone: +1 437 220 2306
             <br /> <br />
             FIND ME, FOLLOW ME, BE MY FRIEND AT :
             <br /> <br />
