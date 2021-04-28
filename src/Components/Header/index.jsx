@@ -2,12 +2,14 @@ import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 import Logo from "../../photos/LOGO.png";
-import Carousal from "../utils/carousal";
+// import Carousal from "../utils/carousal";
 const index = () => {
   return (
     <div>
       <div className="image">
-        <img src={Logo} alt="" />
+        <Link to="/">
+          <img src={Logo} alt="" />
+        </Link>
       </div>
       <nav>
         <Link to="/">
@@ -20,7 +22,7 @@ const index = () => {
           <li className="links">Illustration</li>
         </Link>
         <Link to="/story-board">
-          <li className="links">StoryBoard</li>
+          <li className="links">Storyboard</li>
         </Link>
         <Link to="/contact">
           <li className="links link-last">Contact</li>

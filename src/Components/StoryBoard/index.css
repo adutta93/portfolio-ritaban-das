@@ -1,0 +1,15 @@
+.container-story{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 6rem; */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.container-story img {
+    width: 700px;
+    height: 400px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 2px solid black;
+}

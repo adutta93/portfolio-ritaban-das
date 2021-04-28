@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Footer";
 import {
   AiFillInstagram,
   AiFillFacebook,
@@ -42,7 +41,6 @@ const index = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

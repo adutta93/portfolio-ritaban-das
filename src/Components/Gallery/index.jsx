@@ -17,28 +17,37 @@ import SchoolOfRock from "../../photos/school-of-rock.jpg";
 import Sista from "../../photos/sista.jpg";
 import SoccerDad from "../../photos/soccer-dad.jpg";
 import TorontoStudio from "../../photos/toronto-studio.jpg";
+import BlackZang from "../../photos/black-zang.jpg";
 import "./index.css";
 
 const index = () => (
   <div>
     <Header />
-    <div className="container">
+    <div className="container-illus">
       <div>
         <Gallery>
           <Item original={Beatles} thumbnail={Beatles} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={Beatles} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={Beatles} alt="" />
+            )}
           </Item>
 
           <Item original={Devil} thumbnail={Devil} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={Devil} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={Devil} alt="" />
+            )}
           </Item>
 
           <Item original={Easter} thumbnail={Easter} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={Easter} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={Easter} alt="" />
+            )}
           </Item>
 
           <Item original={Fox} thumbnail={Fox} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={Fox} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={Fox} alt="" />
+            )}
           </Item>
 
           <Item
@@ -48,42 +57,48 @@ const index = () => (
             height="768"
           >
             {({ ref, open }) => (
-              <img ref={ref} onClick={open} src={KongZilla} />
+              <img ref={ref} onClick={open} src={KongZilla} alt="" />
             )}
           </Item>
 
           <Item
             original={Metallica}
             thumbnail={Metallica}
-            width="600"
+            width="650"
             height="768"
           >
             {({ ref, open }) => (
-              <img ref={ref} onClick={open} src={Metallica} />
+              <img ref={ref} onClick={open} src={Metallica} alt="" />
             )}
           </Item>
 
           <Item original={RazDee} thumbnail={RazDee} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={RazDee} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={RazDee} alt="" />
+            )}
           </Item>
 
           <Item original={Robot} thumbnail={Robot} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={Robot} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={Robot} alt="" />
+            )}
           </Item>
 
           <Item
             original={SchoolOfRock}
             thumbnail={SchoolOfRock}
-            width="600"
+            width="700"
             height="768"
           >
             {({ ref, open }) => (
-              <img ref={ref} onClick={open} src={SchoolOfRock} />
+              <img ref={ref} onClick={open} src={SchoolOfRock} alt="" />
             )}
           </Item>
 
           <Item original={Sista} thumbnail={Sista} width="600" height="768">
-            {({ ref, open }) => <img ref={ref} onClick={open} src={Sista} />}
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={Sista} alt="" />
+            )}
           </Item>
 
           <Item
@@ -93,18 +108,29 @@ const index = () => (
             height="768"
           >
             {({ ref, open }) => (
-              <img ref={ref} onClick={open} src={SoccerDad} />
+              <img ref={ref} onClick={open} src={SoccerDad} alt="" />
             )}
           </Item>
 
           <Item
             original={TorontoStudio}
             thumbnail={TorontoStudio}
+            width="1200"
+            height="768"
+          >
+            {({ ref, open }) => (
+              <img ref={ref} onClick={open} src={TorontoStudio} alt="" />
+            )}
+          </Item>
+
+          <Item
+            original={BlackZang}
+            thumbnail={BlackZang}
             width="600"
             height="768"
           >
             {({ ref, open }) => (
-              <img ref={ref} onClick={open} src={TorontoStudio} />
+              <img ref={ref} onClick={open} src={BlackZang} alt="" />
             )}
           </Item>
         </Gallery>
